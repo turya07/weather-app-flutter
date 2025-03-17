@@ -5,14 +5,11 @@ ThemeData appTheme() {
   return ThemeData(
     visualDensity: VisualDensity.adaptivePlatformDensity,
     appBarTheme: AppBarTheme(
-      color: Colors.deepPurpleAccent,
-      systemOverlayStyle: SystemUiOverlayStyle.light,
+      color: Color.fromARGB(26, 204, 182, 255),
+      systemOverlayStyle: SystemUiOverlayStyle.dark,
     ),
     floatingActionButtonTheme: FloatingActionButtonThemeData(
       backgroundColor: Colors.deepPurpleAccent,
     ),
-    colorScheme: ColorScheme.fromSwatch(
-      primarySwatch: Colors.deepPurple,
-    ).copyWith(secondary: Colors.deepPurpleAccent),
   );
 }
